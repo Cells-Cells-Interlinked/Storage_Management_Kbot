@@ -144,7 +144,6 @@ def main():
 	rospy.Subscriber('/move_base/result', MoveBaseActionResult, move_base_result_callback)
 
 	# TODO
-	#mba = moveBaseAction()
 	while not rospy.is_shutdown():
 		test = storeMan([2,3],[5,7])
 		
